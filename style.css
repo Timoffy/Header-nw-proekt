@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@400;500;600;700&family=Protest+Revolution&display=swap');
+:root{
+    --btn-color:#69724F;
+    --main-color:#666363;
+    }
+ul{
+list-style: none;
+}
+a{
+text-decoration: none;
+}
+header{
+width: 1430px;
+height: 110px;
+border:1px solid var(--btn-color) ;
+margin-left: 1px;
+}
+.flex{
+display: flex;
+}
+.header-wrap{
+justify-content: space-around;
+align-items: center;
+}
+.logo{
+margin-top: 7px;
+}
+.menu{
+gap: 47px;
+}
+.menu a{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--main-color);
+    }
+.button{
+    width: 180px;
+    height: 70px;
+    background-color: var(--btn-color)
+}
+.btn{
+    color: #F5F5F5;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: block;
+    padding: 23px 46px;
+    }
+.sec_1-wrap{
+    width: 1433px;
+    height: 1200px;
+    background-image: url(/img/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    margin-left: 0px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    }
+.sec_1-wrap{
+    gap: 97px;
+}
+.sec_1-h2{
+    width: 202px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 0px;
+    font-family: "Lora", serif;
+    font-weight: 700px;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--main-color);
+    padding-top: 98px;
+    }
+    .sec_2{
+    width: 110px;
+    height: 110px;
+    margin-top: 66px;
+    margin-left: 135px;
+    font-family: Lora;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 81px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(102, 99, 99, 1);
+    line-height: 58px;
+    }
+    .h2{
+    width: 985px;
+    height: 90px;
+    margin-top: -280px;
+    margin-left: 447px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 79px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color: rgba(245, 245, 245, 1);
+    background-color: rgba(105, 114, 79, 1);
+    background-position: 10px;
+    padding-top: 10px 10px;
+    }
+.sec_1-p{
+    width: 968px;
+    height: 10px;
+    margin-top: 20px;
+    margin-left: 447px;
+    font-family: Lora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 0em;
+    text-align: left;
+    line-height: 20.8px;
+    color: rgba(102, 99, 99, 1);
+}
+.sec_12-p{
+    width: 968px;
+    height: 10px;
+    margin-top: 93px;
+    margin-left: 447px;
+    font-family: Lora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 0em;
+    text-align: left;
+    line-height: 20.8px;
+    color: rgba(102, 99, 99, 1);
+}
